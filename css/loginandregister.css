@@ -1,0 +1,162 @@
+/*    
+SHIVAM PATEL  (852894) |
+--------------------------
+*/
+
+.login{
+    text-align: center;
+    display: block;
+    width: 30%;
+    border-radius: 1em;
+    box-shadow: 0 .3rem 1rem rgba(106, 100, 100, 0.1);
+    border: 1px solid rgb(218, 214, 214);
+    margin: auto;
+    padding-bottom: 5vh;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+
+.login:hover{
+    border: 1px solid #005587;
+}
+.login img{
+    height: 5rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.login form{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.login-2{
+width: 90%;
+margin: auto;
+padding: 1rem;
+}
+.login-2 li {
+ text-align: center;
+font-size: 1.2rem;
+ margin-top: 0.4rem;
+padding: 0rem;
+ color: black;
+
+}
+.login label{
+    margin-right: 3rem;
+
+}
+.login li input{
+text-align: right;
+height: 1.7rem;
+margin-bottom: 1rem;
+}
+
+/* register css */
+.login2{
+    text-align: center;
+    display: block;
+    width: 45%;
+    border-radius: 1em;
+    box-shadow: 0 .1rem 1rem rgba(106, 100, 100, 0.1);
+    border: 1px solid rgb(218, 214, 214);
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding-bottom: 5vh;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+.login2:hover{
+    border: 1px solid #005587;
+}
+.login2 img{
+    height: 5rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.login2 form{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.login2-2{
+width: 90%;
+margin: auto;
+padding: 1rem;
+}
+.login2-2 li {
+ text-align: center;
+font-size: 1.2rem;
+ margin-top: 0.4rem;
+padding: 0rem;
+ color: black;
+
+}
+.login2 label{
+    margin-right: 1rem;
+
+}
+.login2 li input{
+text-align: right;
+height: 1.7rem;
+margin-bottom: 1rem;
+}
+/* btn global */
+
+.loginbtn,.loginbtnx{
+    width: 9rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    color: #005486;
+    background-color: #c2e8f6;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.loginbtn2,.loginbtn2x{
+    width: 9rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #005486;
+    background-color: #c2e8f6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.loginbtn:hover,.loginbtn2:hover,.loginbtn2x:hover,.loginbtnx:hover{
+    background-color: #005486;
+    cursor: pointer;
+    color: #c2e8f6;
+}
+
+
+
+
+
+
+
+

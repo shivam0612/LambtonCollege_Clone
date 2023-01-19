@@ -1,0 +1,219 @@
+<!-- 
+SHIVAM PATEL  (852894) 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lambton College</title>
+
+    <!-- LINKING ICON TO SHOW IN WEBBROWSER TAB -->
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+
+    <!-- LINKING CUSTOM CSS -->
+    <link href="./CSS/stylesheet.css" rel="stylesheet" />
+    <link href="./CSS/Additional.css" rel="stylesheet" />
+    <link href="./CSS/loginandregister.css" rel="stylesheet" />
+
+    <!-- USED FOR ICONS PURPOSE ONLY -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html">
+          <img
+            style="cursor: pointer"
+            alt="image"
+            src="Images/logo.png"
+            class="nav-logo"
+          />
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="service.html">Services</a></li>
+          <li class="nav-item"><a href="work.html">Work</a></li>
+          <li class="nav-item"><a href="career.html">Careers</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item active"><a href="login.html">Login</a></li>
+          <li class="togglechanger">
+            <input type="checkbox" id="switch" /><label for="switch"></label>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- NOTIFICATION: TOAST FEATURE FOR UPCOMING FEATURES -->
+    <div id="snackbar">Service Coming Soon . . . Stay Tuned !</div>
+
+    <div style="height: 100vh;;">
+      <div class="login2" style="background-color: white">
+        <img src="Images/logo.png" />
+        <form id="f2" action="createaccount.html">
+          <br />
+          <ul class="login2-2">
+            <li>
+              <h1
+                style="
+                  font-size: 1.5rem;
+                  margin: 1rem;
+                  margin-bottom: 2rem;
+                  font-weight: 200;
+                "
+              >
+                <u style="text-decoration-thickness: 1px">Register</u>
+              </h1>
+            </li>
+            <li style="margin-top: 1rem">
+              <label style="text-align: left; margin: 0">User Name:</label>
+              <input
+                style="text-align: left"
+                type="text"
+                class="namme"
+                autofocus
+              />
+              <label style="margin-left: 3rem; margin-right: 0">City :</label>
+              <input
+                style="margin: 0; text-align: left"
+                type="text"
+                id="city"
+              />
+            </li>
+            <li>
+              <label style="text-align: left; margin: 0; margin-left: 0.4rem"
+                >Password :</label
+              >
+              <input style="text-align: left" type="password" id="password" />
+              <label style="margin-left: 1rem; margin-right: 0"
+                >PinCode :</label
+              >
+              <input style="margin: 0; text-align: left;" type="number" id="pincode" />
+            </li>
+            <li>
+              <label style="text-align: left; margin: 0">Contact :</label>
+              <input
+                style="text-align: left; margin-right: 15.5rem"
+                type="number"
+                id="contact"
+              />
+            </li>
+            <li>
+              <label style="text-align: left; margin: 0; margin-bottom: 1rem"
+                >Email:
+              </label>
+              <input
+                style="
+                  margin: 0;
+                  width: 25rem;
+                  margin-bottom: 1rem;
+                  margin-left: 4.2rem;
+                  text-align: left;
+                "
+                type="email"
+                id="email"
+              />
+            </li>
+            <li>
+              <label style="text-align: left; margin: 0">Confirm Email:</label>
+              <input
+                style="margin: 0; width: 25rem; text-align: left"
+                type="email"
+                id="cemail"
+              />
+            </li>
+            <li>
+              <button class="loginbtn2" type="submit">Register</button>
+              <p style="text-align: center">OR</p>
+            </li>
+            <li>
+              <button
+                onclick="location.href = 'login.html'"
+                type="button"
+                href="login.html"
+                class="loginbtn"
+              >
+                Login
+              </button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div style="display: none;" class="apply" id="applytoday">
+            <div class="btngrp">
+              <button id="anct1" class="btnapply">Apply Now</button>
+              <button id="anct2" class="btnapply">Confirm Today</button>
+            </div>
+          </div>
+      <div class="footer_last">
+        <div class="firstpart">
+          <div>
+            <p>info@lambtoncollege.ca</p>
+            <br />
+            <p style="color: #a3ccdd">
+              Program Info: 519-541-2403
+              <br />
+              Main: 519-542-7751
+            </p>
+            <br />
+            <p>1457 London Road, Sarnia, ON N7S 6K4</p>
+          </div>
+        </div>
+        <div class="secondpart">
+          <div class="lasticons">
+            <a href="#"
+              ><i class="fa fa-facebook" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-twitter" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-instagram" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-whatsapp" style="font-size: larger"></i
+            ></a>
+          </div>
+          <button class="donate button">Give ❤️ today</button>
+        </div>
+        <div class="third">
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >Programs</a
+          >
+          <a href="career.html" style="cursor: pointer">Careers</a>
+          <a href="about.html" style="cursor: pointer">About Us</a>
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >site map</a
+          >
+        </div>
+      </div>
+
+      <div class="lastone">
+        <p>This site copyrights &copy; under Group4</p>
+        <p id="topp">⬆️</p>
+      </div>
+    </footer>
+
+    <script src="JS/main_script.js" type="text/javascript"></script>
+    <script src="JS/app.js" type="text/javascript"></script>
+  </body>
+</html>

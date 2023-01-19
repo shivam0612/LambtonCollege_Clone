@@ -1,0 +1,200 @@
+/*    
+SHIVAM PATEL  (852894) |
+--------------------------
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bannerimg1 {
+    padding: 3% 10%;
+    width: 100%;
+    background-image: url(../Images/work_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerimg1 h1 {
+    background-color: #005587;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    padding-left: 10px;
+    font-weight: 400;
+    padding-left: 0.7em;
+    border-radius: 2px;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .nav-logo {
+        height: 3.2em !important;
+        width: 11em !important;
+    }
+    .bannerimg1 {
+        height: fit-content;
+    }
+    .bannerimg1 h1 {
+        width: 12rem;
+        font-size: 1.4rem;
+        padding: 6px;
+    }
+    .container {
+        width: 95% !important;
+        margin-top: 2.5rem !important;
+    }
+    img {
+        height: 8rem !important;
+    }
+    .tag {
+        font-size: 0.60rem !important;
+    }
+    .card__body h4 {
+        font-size: 1rem !important;
+    }
+    .card__body p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .nav-logo {
+        height: 3.4em !important;
+        width: 12em !important;
+    }
+    .bannerimg1 h1 {
+        width: 14rem;
+        font-size: 1.7rem;
+        padding: 13px;
+    }
+    .container {
+        margin-top: 2.5rem !important;
+    }
+    img {
+        height: 10rem !important;
+    }
+    .tag {
+        font-size: 0.70rem !important;
+    }
+    .card__body h4 {
+        font-size: 1.2rem !important;
+    }
+    .card__body p {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+    }
+    main {
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .bannerimg1 h1 {
+        width: 16rem;
+        font-size: 1.8rem;
+        padding: 13px;
+    }
+    main {
+        margin-bottom: 5rem;
+    }
+}
+
+
+/*MAIN PAGE*/
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 85%;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: 14rem;
+    display: block;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    overflow: hidden;
+    border-radius: 1em;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(218, 214, 214);
+}
+
+.card:hover {
+    border: 1px solid #005587;
+}
+
+.card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+}
+
+.tag-blue {
+    background: #56CCF2;
+    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+    color: #fafafa;
+}
+
+.tag-brown {
+    background: #D1913C;
+    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    color: #fafafa;
+}
+
+.tag-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+}
+
+.card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.user {
+    display: flex;
+    gap: .5rem;
+}
+
+.user__image {
+    border-radius: 50%;
+}
+
+.user__info>small {
+    color: #666;
+}

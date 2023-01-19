@@ -1,0 +1,174 @@
+<!-- 
+SHIVAM PATEL  (852894) |
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- LINKING ICON TO SHOW IN WEBBROWSER TAB -->
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+
+    <!-- LINKING CUSTOM CSS -->
+    <link href="./CSS/stylesheet.css" rel="stylesheet" />
+    <link href="./CSS/about_and_service_stylesheet.css" rel="stylesheet" />
+    <link href="./CSS/Additional.css" rel="stylesheet" />
+
+    <!-- USED FOR ICONS PURPOSE ONLY -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html">
+          <img style="cursor: pointer;" alt="image" src="Images/logo.png" class="nav-logo" />
+      </a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item active"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="service.html">Services</a></li>
+          <li class="nav-item"><a href="work.html">Work</a></li>
+          <li class="nav-item"><a href="career.html">Careers</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="login.html">Login</a></li>
+          <li class="togglechanger">
+            <input type="checkbox" id="switch" /><label for="switch"></label>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- NOTIFICATION: TOAST FEATURE FOR UPCOMING FEATURES -->
+    <div id="snackbar">Service Coming Soon . . . Stay Tuned !</div>
+
+    <!-- MAIN BODY -->
+    <main>
+      <div class="bannerimg">
+        <h1>Strategic Plan</h1>
+        <h3>Our Students</h3>
+      </div>
+
+      <div class="theroy">
+        <h3>Locations</h3>
+        <p class="'t1">
+          Lambton College is primarily located in Sarnia, Ontario but also has
+          international student campuses in Mississauga and Toronto. Since 1967,
+          Lambton College has worked in partnership with the community to create
+          a region of innovators, working together to strengthen the local
+          economy, and meet industry demand for skilled employees. Discover each
+          of our locations and see how Lambton College continues to change
+          communities with its graduates. Lambton College is a Smoke-Free
+          Campus.
+        </p>
+      </div>
+
+      <div class="theroy">
+        <h3>Our Facilities</h3>
+        <p>
+          Our Facilities FACILITIES Our Facilities Booking Forms Contact
+          Facilities Lambton College offers the community a number of options
+          for room rentals and conference facilities. Our college campus is
+          well-equipped to host events that require classroom, meeting rooms and
+          ballroom facilities. In addition to offering you the facilities you
+          need to host a successful event, we also offer the following services:
+        </p>
+        <ul class="ul">
+          <li>
+            Use of residence rooms during the summer months for visitors and
+            conference participants
+          </li>
+          <li>Partnerships with local hotels for accommodations</li>
+          <li>On-campus catering services</li>
+          <li>
+            Availability of parking, instructional aides, satellite and IT
+            equipment
+          </li>
+        </ul>
+        <p>
+          Booking facilities at Lambton College is quick and easy. Interested
+          parties wishing to book the facilities, you can either fill out a
+          booking form or you can contact us directly to begin the process. Once
+          the date and facility have been booked, you will work directly with
+          your event coordinator to decide what other services are requ ired on
+          the day of the event.
+        </p>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div style="display: none;" class="apply" id="applytoday">
+            <div class="btngrp">
+          <button id="anct1" class="btnapply">Apply Now</button>
+          <button id="anct2" class="btnapply">Confirm Today</button>
+        </div>
+      </div>
+      <div class="footer_last">
+        <div class="firstpart">
+          <div>
+            <p>info@lambtoncollege.ca</p>
+            <br />
+            <p style="color: #a3ccdd">
+              Program Info: 519-541-2403
+              <br />
+              Main: 519-542-7751
+            </p>
+            <br />
+            <p>1457 London Road, Sarnia, ON N7S 6K4</p>
+          </div>
+        </div>
+        <div class="secondpart">
+          <div class="lasticons">
+            <a href="#"
+              ><i class="fa fa-facebook" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-twitter" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-instagram" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-whatsapp" style="font-size: larger"></i
+            ></a>
+          </div>
+          <button class="donate button">❤️ Give today</button>
+        </div>
+        <div class="third">
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >Programs</a
+          >
+          <a href="career.html" style="cursor: pointer">Careers</a>
+          <a href="about.html" style="cursor: pointer">About Us</a>
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >site map</a
+          >
+        </div>
+      </div>
+
+      <div class="lastone">
+        <p>This site copyrights &copy; under Group4</p>
+        <p id="topp">⬆️</p>
+      </div>
+    </footer>
+    <script src="JS/main_script.js" type="text/javascript"></script>
+  </body>
+</html>

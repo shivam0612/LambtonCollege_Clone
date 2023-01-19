@@ -1,0 +1,502 @@
+/*   
+SHIVAM PATEL  (852894) |
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%% ABOUT PAGE %%%%%%%%%%%%%%%%%%%%%%% */
+
+.main {
+    margin-top: 2rem;
+}
+
+.bannerimg {
+    padding: 3% 10%;
+    width: 100%;
+    height: 18rem;
+    background-image: url('https://www.lambtoncollege.ca/uploadedImages/LambtonCollege/Content/About_Us/Our_College/Strategic_Plan/Slideshow/strat-plan-wide-banner-students.jpg?n=4012');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerimg h1 {
+    background-color: #005587;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 30%;
+    padding-left: 10px;
+    font-weight: 400;
+    padding-left: 0.7em;
+    border-radius: 2px;
+}
+
+.bannerimg h3 {
+    background-image: url(../Images/overlay2.png);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2%;
+    color: #fff;
+    width: 20%;
+    padding-left: 0.7em;
+    border-radius: 2px;
+}
+
+
+/* MAIN BODY */
+
+.theroy {
+    width: 100%;
+    padding: 0 13%;
+}
+
+.theroy h3 {
+    margin: 1.5rem 0;
+    font-weight: bold;
+    color: #005587;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.theroy p {
+    width: 70%;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.ul {
+    font-weight: bold;
+    color: #005587;
+    padding: 10px;
+}
+
+.ul li {
+    margin: 1rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .bannerimg {
+        height: fit-content;
+    }
+    .bannerimg h1 {
+        width: 12rem;
+        font-size: 1.4rem;
+        margin-top: 2.5rem;
+        padding: 9px;
+    }
+    .bannerimg h3 {
+        font-size: 1rem;
+        width: 8rem;
+        padding: 9px;
+        margin-bottom: 2.5rem;
+    }
+    .theroy h3 {
+        padding: 0;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .theroy p {
+        width: 100%;
+        text-align: justify;
+        font-size: 0.85em;
+    }
+    .ul {
+        font-size: 0.85em;
+    }
+    .ul li {
+        margin: 0.8rem;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .bannerimg h1 {
+        width: 14rem;
+        font-size: 1.7rem;
+        margin-top: 2.7rem;
+        padding: 13px;
+    }
+    .bannerimg h3 {
+        font-size: 1.2rem;
+        width: 9rem;
+        padding: 13px;
+        margin-bottom: 2.7rem;
+    }
+    .theroy h3 {
+        font-size: 1.8em;
+    }
+    .theroy p {
+        width: 100%;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    .ul {
+        font-size: 1em;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .ul li {
+        margin: 0.8rem;
+    }
+    footer {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .bannerimg h1 {
+        width: 16rem;
+        font-size: 1.8rem;
+        margin-top: 2.7rem;
+        padding: 13px;
+    }
+    .bannerimg h3 {
+        font-size: 1.3rem;
+        width: 10rem;
+        padding: 13px;
+        margin-bottom: 2.7rem;
+    }
+    .theroy h3 {
+        font-size: 1.8em;
+    }
+    .theroy p {
+        width: 100%;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    .ul {
+        font-size: 1em;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .ul li {
+        margin: 0.8rem;
+    }
+    footer {
+        margin-top: 4rem;
+    }
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%% SERVICE PAGE %%%%%%%%%%%%%%%%%%%%%%% */
+
+.bannerimg1 {
+    padding: 3% 10%;
+    width: 100%;
+    background-image: url(../Images/all-services.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerimg1 h1 {
+    background-color: #005587;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    padding-left: 10px;
+    font-weight: 400;
+    padding-left: 0.7em;
+    border-radius: 2px;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .bannerimg1 {
+        height: fit-content;
+    }
+    .bannerimg1 h1 {
+        width: 12rem;
+        font-size: 1.4rem;
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .bannerimg1 h1 {
+        width: 14rem;
+        font-size: 1.7rem;
+        padding: 13px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .bannerimg1 h1 {
+        width: 16rem;
+        font-size: 1.8rem;
+        padding: 13px;
+    }
+}
+
+.services {
+    width: 80%;
+    margin: auto;
+}
+
+.services h3 {
+    font-family: "Playfair Display", serif;
+    color: #005587;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 25px;
+    display: flex;
+    margin: 1em;
+    animation-name: card_animation;
+    animation-duration: 3s;
+    animation-delay: calc(0s + .1s * var(--i));  
+    position: relative;
+
+}
+
+@keyframes card_animation {
+    0%   { left:-500px;opacity:0}
+    30%   { opacity:0.4}
+    70%   { opacity:0.7}
+    100% {left: 0;opacity: 1;}
+  }
+
+.card {
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(218, 214, 214);
+    padding: 5px;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1em;
+}
+
+.card:hover {
+    border: 1px solid #005587;
+}
+
+.card img {
+    margin-top: 0.2rem;
+    width: 19.8rem;
+    padding-top: 0.2rem;
+    margin: auto;
+    border-radius: 9px;
+}
+
+.card img:hover {
+    transition: 1s;
+    transform: scale(0.9);
+}
+
+.card h4 {
+    margin-top: 0.3rem;
+    margin-bottom: 4px;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    color: navy;
+}
+
+.card p {
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.card hr {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.main {
+    height: fit-content;
+    margin-bottom: 61rem;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .column {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+        align-items: center;
+        padding: 0;
+        margin: auto;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+    }
+    .card {
+        align-items: center;
+        vertical-align: middle;
+        padding: 0px;
+        width: 19rem;
+        height: 18rem;
+    }
+    .card img {
+        width: 96%;
+        height: 10rem;
+        font-size: 1.4rem;
+        padding-top: 0.3rem;
+    }
+    .card h3 {
+        font-size: 1rem;
+        padding-bottom: 0.2rem;
+    }
+    .card p {
+        padding-left: 1.2rem;
+        padding-top: 0.4rem;
+        padding-right: 1.2rem;
+        font-size: 0.9rem;
+    }
+    .main {
+        margin-bottom: 122rem;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1061px) {
+    .row {
+        justify-content: space-evenly;
+    }
+    .column {
+        float: left;
+        width: 43%;
+        margin-bottom: 25px;
+        margin: 1em;
+    }
+    .card {
+        flex-direction: column;
+        box-shadow: 1px 1px 3px black;
+        padding: 5px;
+        text-align: center;
+        height: 23rem;
+        border-radius: 10px;
+        width: 20rem;
+    }
+    .card img {
+        margin-top: 0.2rem;
+        width: 98%;
+        height: 12rem;
+        padding-top: 0.2rem;
+        margin: auto;
+        border-radius: 9px;
+    }
+    .card img:hover {
+        transition: 1s;
+        transform: scale(0.9);
+    }
+    .card h4 {
+        margin-top: 0.4rem;
+        margin-bottom: 4px;
+        font-family: "Playfair Display", serif;
+        font-size: 1.4rem;
+        color: navy;
+    }
+    .card p {
+        font-family: "Playfair Display", serif;
+        font-size: 1.1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+    .main {
+        margin-bottom: 85rem;
+    }
+}
+
+@media screen and (min-width:1061px) and (max-width:1440px) {
+    .row {
+        justify-content: space-evenly;
+    }
+    .column {
+        float: left;
+        width: 29.5%;
+        margin-bottom: 25px;
+        margin: 1em;
+    }
+    .card {
+        flex-direction: column;
+        box-shadow: 1px 1px 3px black;
+        padding: 5px;
+        text-align: center;
+        height: 27rem;
+        border-radius: 10px;
+        width: 22rem;
+    }
+    .card img {
+        margin-top: 0.2rem;
+        width: 98%;
+        height: 13rem;
+        padding-top: 0.2rem;
+        margin: auto;
+        border-radius: 9px;
+    }
+    .card img:hover {
+        transition: 1s;
+        transform: scale(0.9);
+    }
+    .card h4 {
+        margin-top: 0.4rem;
+        margin-bottom: 4px;
+        font-family: "Playfair Display", serif;
+        font-size: 1.6rem;
+        color: navy;
+    }
+    .card p {
+        font-family: "Playfair Display", serif;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+    .services h3 {
+        font-size: 2.3rem;
+    }
+    .main {
+        margin-bottom: 70rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card {
+        height: 24rem;
+    }
+    .card img {
+        margin-top: 0.2rem;
+        width: 98%;
+        height: 13rem;
+        padding-top: 0.2rem;
+        margin: auto;
+        border-radius: 9px;
+    }
+    .card p {
+        padding-top: 1rem;
+    }
+    .main {
+        margin-bottom: 61rem;
+    }
+}

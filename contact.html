@@ -1,0 +1,229 @@
+<!-- 
+SHIVAM PATEL  (852894) |
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- LINKING ICON TO SHOW IN WEBBROWSER TAB -->
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+
+    <!-- LINKING CUSTOM CSS -->
+    <link href="./CSS/stylesheet.css" rel="stylesheet" />
+    <link href="./CSS/contact_stylesheet.css" rel="stylesheet" />
+    <link href="./CSS/Additional.css" rel="stylesheet" />
+
+    <!-- USED FOR ICONS PURPOSE ONLY -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      type="text/javascript"
+    ></script>
+    
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html">
+          <img style="cursor: pointer;" alt="image" src="Images/logo.png" class="nav-logo" />
+      </a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="service.html">Services</a></li>
+          <li class="nav-item"><a href="work.html">Work</a></li>
+          <li class="nav-item"><a href="career.html">Careers</a></li>
+          <li class="nav-item active"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="login.html">Login</a></li>
+          <li class="togglechanger">
+            <input type="checkbox" id="switch" /><label for="switch"></label>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="bannerimg3">
+      <h1>Contact</h1>
+    </div>
+    <h3 class="heading_contact">Developer</h3>
+
+    <ul class="cards">
+      <li>
+        <a href="javascript:void(0)" class="card">
+          <img
+            alt="image"
+            src="Images/contact_cards.jpg"
+            class="card__image"
+            alt=""
+          />
+          <div class="card__overlay">
+            <div class="card__header">
+              <svg class="card__arc">
+                <path d="M 40 80 c 22 0 40 -22 40 -40 v 40 Z" />
+              </svg>
+              <img
+                alt="image"
+                class="rotatee card__thumb"
+                src="Images/icon.png"
+                alt=""
+              />
+              <div class="card__header-text">
+                <h3 class="card__title">Shivam Patel</h3>
+                <span class="card__status">1 hour ago</span>
+              </div>
+            </div>
+            <p class="card__description">
+              I am a <b>Software Developer</b> and Currently pursuing
+              Certification at <b>Lambton College</b>. I have Great
+              <u>Programming and Troubleshooting skills</u>. This Website is
+              developed with <i>HTML, CSS, JavaScript and Jquery</i>. For
+              responsive part, I have used <i>Media Queries</i>.
+            </p>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <main>
+      <div class="contactus" id="contactus">
+        <h3 class="heading_contact">Contact Us</h3>
+        <form id="form" action="/contact.html">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name:</label>
+            </div>
+            <div class="col-75">
+              <input
+                pattern="[a-z, A-Z]{3,30}"
+                title="Should contain Atmost 30 chars and A-Z and a-z is Allowed. No Other thing"
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name:</label>
+            </div>
+            <div class="col-75">
+              <input
+                pattern="[a-z, A-Z]{3,30}"
+                title="Should contain Atmost 30 chars and A-Z and a-z is Allowed. No Other thing"
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Question:</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 120px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div style="display: none;" class="apply" id="applytoday">
+        <div class="btngrp">
+          <button id="anct1" class="btnapply">Apply Now</button>
+          <button id="anct2" class="btnapply">Confirm Today</button>
+        </div>
+      </div>
+      <div class="footer_last">
+        <div class="firstpart">
+          <div>
+            <p>info@lambtoncollege.ca</p>
+            <br />
+            <p style="color: #a3ccdd">
+              Program Info: 519-541-2403
+              <br />
+              Main: 519-542-7751
+            </p>
+            <br />
+            <p>1457 London Road, Sarnia, ON N7S 6K4</p>
+          </div>
+        </div>
+        <div class="secondpart">
+          <div class="lasticons">
+            <a href="#"
+              ><i class="fa fa-facebook" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-twitter" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-instagram" style="font-size: larger"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-whatsapp" style="font-size: larger"></i
+            ></a>
+          </div>
+          <button class="donate button">❤️ Give today</button>
+        </div>
+        <div class="third">
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >Programs</a
+          >
+          <a href="#" onclick="myFunction()" style="cursor: pointer">Careers</a>
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >About Us</a
+          >
+          <a href="#" onclick="myFunction()" style="cursor: pointer"
+            >site map</a
+          >
+        </div>
+      </div>
+
+      <div class="lastone">
+        <p>This site copyrights &copy; under Group4</p>
+        <p id="topp">⬆️</p>
+      </div>
+    </footer>
+    
+    <script src="JS/main_script.js" type="text/javascript"></script>
+  </body>
+</html>

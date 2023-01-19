@@ -1,0 +1,138 @@
+<!-- 
+SHIVAM PATEL  (852894) 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lambton College</title>
+
+    <!-- LINKING ICON TO SHOW IN WEBBROWSER TAB -->
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+
+    <!-- LINKING CUSTOM CSS -->
+    <link href="./CSS/stylesheet.css" rel="stylesheet" />
+    <link href="./CSS/Additional.css" rel="stylesheet" />
+
+    <!-- USED FOR ICONS PURPOSE ONLY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" type="text/javascript"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="splash">
+        <h1 class="fade-in">Welcome To Our Consultancy Website</h1>
+    </div>
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html">
+                <img style="cursor: pointer;" alt="image" src="Images/logo.png" class="nav-logo" />
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item active"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="service.html">Services</a></li>
+                <li class="nav-item"><a href="work.html">Work</a></li>
+                <li class="nav-item"><a href="career.html">Careers</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <li class="nav-item"><a href="login.html">Login</a></li>
+                <li class="togglechanger">
+                    <input  type="checkbox" id="switch" /><label for="switch"></label>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- NOTIFICATION: TOAST FEATURE FOR UPCOMING FEATURES -->
+    <div id="snackbar">Service Coming Soon . . . Stay Tuned !</div>
+
+    <div id="banner_image">
+        <div class="imagename">Welcome to Lambton College
+            <p style="font-size: 1.5em;font-family: 'Oleo Script Swash Caps', cursive;">Consultancy</p>
+        </div>
+    </div>
+
+
+    <!-- BODY QUOTE -->
+    <div id="quote">
+        <div class="grid-child ">
+            <h2>Some Amazing Quotations</h2>
+        </div>
+        <div class="grid-child " >
+            <blockquote>
+                In giving presentations, use the 10/20/30 rule….use only 10 slides, take 20 minutes maximum, and use at least 30-point fonts</blockquote>
+            <p id="next" onclick="next()" style="padding: 0;cursor: pointer;text-align: center;font-size: 2rem;">🔀</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+
+        <div class="apply" id="applytoday">
+            <div class="btngrp">
+                <button id="anct1" class="btnapply">
+             Apply Now
+           </button>
+                <button id="anct2" class="btnapply">
+            Confirm Today
+          </button>
+            </div>
+        </div>
+        <div class="footer_last">
+            <div class="firstpart">
+                <div>
+                    <p>info@lambtoncollege.ca</p>
+                    <br>
+                    <p style="color: #A3CCDD;">
+                        Program Info: 519-541-2403
+                        <br> Main: 519-542-7751
+                    </p>
+                    <br>
+                    <p>1457 London Road, Sarnia, ON N7S 6K4</p>
+                </div>
+            </div>
+            <div class="secondpart">
+                <div class="lasticons">
+                    <a onclick="myFunction()" style="cursor: pointer;"><i class="fa fa-facebook" style="font-size: larger;"></i></a>
+                    <a onclick="myFunction()" style="cursor: pointer;"><i class="fa fa-twitter" style="font-size: larger;"></i></a>
+                    <a onclick="myFunction()" style="cursor: pointer;"><i class="fa fa-instagram" style="font-size: larger;"></i></a>
+                    <a onclick="myFunction()" style="cursor: pointer;"><i class="fa fa-whatsapp" style="font-size: larger;"></i></a>
+                </div>
+                <button style="cursor: pointer;" class="donate button">Give ❤️ today</button>
+            </div>
+            <div class="third">
+                <a href="service.html" onclick="myFunction()" style="cursor: pointer;">Services</a>
+                <a href="career.html" style="cursor: pointer;">Careers</a>
+                <a href="about.html" style="cursor: pointer;">About Us</a>
+                <a onclick="myFunction()" style="cursor: pointer;">site map</a>
+            </div>
+        </div>
+
+        <div class="lastone">
+            <p>This site copyrights &copy; under Group4</p>
+            <p id="topp">⬆️</p>
+        </div>
+    </footer>
+
+    <script src="JS/main_script.js" type="text/javascript"></script>
+</body>
+
+</html>

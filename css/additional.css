@@ -1,0 +1,149 @@
+/*    
+SHIVAM PATEL  (852894) |
+--------------------------
+*/
+
+.splash{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 200;
+    color: wheat;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 4px 2px black;
+    line-height: 90vh;
+    background: rgb(0,0,6);
+    background: linear-gradient(69deg, rgba(0,0,6,1) 0%, rgba(3,119,157,1) 72%, rgba(1,84,134,1) 97%);
+}
+
+.splash.display-none{
+    opacity: 0;
+    z-index: -10;
+    transition: all 1s ;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -ms-transition: all 1s ;
+    -o-transition: all 1s ;
+}
+
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0 ;
+    animation: fadeIn 1s ease-in forwards;
+    -webkit-animation: fadeIn 1s ease-in forwards;
+}
+
+/* toggle button */
+.togglechanger input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .togglechanger label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 45px;
+    top: -10px;
+    height: 25px;
+    background: grey;
+    display: block;    left: 1rem;
+        border-radius: 100px;
+    position: relative;
+  }
+  
+  .togglechanger label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0.2rem;
+    width: 15px;
+    height: 20px;
+    background: rgb(225, 204, 204);
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  .togglechanger input:checked + label {
+    background: rgb(25, 16, 16);
+  }
+  
+  .togglechanger input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+ 
+/* // filter */
+.dropdown {
+  text-align: center;
+  width: 96%;
+  margin: auto;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+span{
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 01px 8px 16px 1px rgba(0,0,0,0.2);
+  z-index: 1;  text-align: center;
+  width: 25%;
+  border-radius: 10px;
+  border: 0.5px solid rgb(211, 189, 189);
+  left: 35%;
+  margin: auto;}
+.dropdown-content p{
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-bottom: 0.3em;
+  
+  margin-bottom: 1.5re !important;
+  cursor: pointer;
+}
+.dropdown-content p:hover{
+  background-color: antiquewhite;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+/* // rotate image 360 */
+
+.rotatee {
+  animation: rotation 10s infinite linear;
+  -webkit-animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.card__overlay:hover .rotatee{
+  animation: rotation 2s infinite linear;
+  -webkit-animation: rotation 2s infinite linear;
+}
